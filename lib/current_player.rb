@@ -3,6 +3,10 @@ def turn_count(board)
   board.each do |turn|
     if turn.downcase == "x" || turn.downcase == "o"
       counter += 1
+<<<<<<< HEAD
+=======
+      return "#{counter}"
+>>>>>>> e748d3207553b646665ba6190bee85bbf2274026
     end
   end
   counter
